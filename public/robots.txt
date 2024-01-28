@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://pts.holdings
+
+# Sitemaps
+Sitemap: https://pts.holdings/sitemap.xml
