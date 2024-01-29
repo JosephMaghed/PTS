@@ -11,7 +11,7 @@ const StrategySection = () => {
 					Our main strategy is based on seeding on People and
 					Technology, connecting innovative and tech-savvy challengers
 					across multi-industry-wide platforms through cross boarder
-					network creating homogenous ecosystem with robust investment
+					network. We aim to create homogenous ecosystem with robust investment
 					backbone ensuring high profits with minimum risks
 				</p>
 			</div>

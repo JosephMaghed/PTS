@@ -39,8 +39,7 @@ export default function Team() {
       <br/>
 
       <p>
-        PTS Holdings was established by a group of HNW & Investors with
-        investment banking, Private equity Telco&apos;s, Startups, &
+        PTS Investment Holdings was established by a group of Investors, Private equity Telco&apos;s, Startups, &
         financial institutions.
       </p>
       <br />

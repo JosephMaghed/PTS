@@ -35,7 +35,7 @@ export const companiesData = {
 		name: "PTS Technology LLC",
 		logo: "/assets/logos/pts-technology.svg",
 		description:
-			"PTS is specialized in Advanced Technological Industries to blend our senior level engineering expertise with our innovative ideas and link our expert capabilities with business objectives resulting in the delivery of next generation products, with managed and professional services delivery. We have pledged ourselves to serve our customers and win their trust through timely implementation with the advice of experienced consultants, for implementing tailoring and streamlining systems to clients’ specific needs focusing mainly on disruptive technologies, providing set of tech products and platforms, adopting a one-stop shop approach enabling us to offer exceptional deliverables to our clients.",
+			"PTS technology is specialized in Advanced Technological Industries to blend our senior level engineering expertise with our innovative ideas and link our expert capabilities with business objectives resulting in the delivery of next generation products, with managed and professional services delivery. We have pledged ourselves to serve our customers and win their trust through timely implementation with the advice of experienced consultants, for implementing tailoring and streamlining systems to clients’ specific needs focusing mainly on disruptive technologies, providing set of tech products and platforms, adopting a one-stop shop approach enabling us to offer exceptional deliverables to our clients.",
 		services: [
 			"Advanced Engineering Solutions: Next-gen products blending expertise and innovation to meet business objectives.",
 			"Managed and Professional Services: Timely implementation and tailored systems with expert guidance.",
@@ -116,7 +116,7 @@ export const companiesData = {
 	},
 
 	"Insta-deal": {
-		name: "Insta Deal Co.",
+		name: "InstaDeal Co.",
 		logo: "/assets/logos/logo instadeel.svg",
 		description:
 			"InstaDeal is a social commercial platform dedicated to supporting e-companies and entrepreneurs in Africa With a one-stop shop approach, by providing a vibrant ecosystem of resources and opportunities through connecting with like-minded entrepreneurs.",
@@ -192,7 +192,7 @@ export const companiesData = {
 			`,
 
 			`Technovate Lab	:
-			The program focuses on offering students, entrepreneurs and startups world-class secure facilities, with access to tools, technology, labs, equipment, and support, along with the opportunity to learn, design and networking with corporates and supported ecosystems. Whereas their presence on the valley will allow them to work in the same space and collaborate to research and co-create innovative solutions and cutting-edge projects syncing with existing NCT programs and facilities.
+			The program focuses on offering students, entrepreneurs and startups world-class secure facilities, with access to tools, technology, labs, equipment, and support, along with the opportunity to learn, design and networking with corporates and supported ecosystems. Whereas their presence on the valley will allow them to work in the same space and collaborate to create innovative solutions in cutting edge projects utilizing the program facilities.
 
 			`
 		],

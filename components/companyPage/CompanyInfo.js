@@ -32,7 +32,7 @@ const CompanyInfo = ({ companyData, perks }) => {
 						)}
 						{companyData.services && <h2>Services:</h2>}
 						{companyData.socialResponsibility && (
-							<h2>Social Responsibility:</h2>
+							<h2>Social Responsibility Objectives:</h2>
 						)}
 					</div>
 					<div>

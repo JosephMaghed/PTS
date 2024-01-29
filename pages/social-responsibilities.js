@@ -9,28 +9,28 @@ export default function SocialResponsibilityPage() {
     name: 'Corporate Social Responsibility',
     logo: '/assets/logos/kemtech logo.png',
     description:
-      "The “Applied Technological Valley- Kemtech Valley” initiative aims to" +
-      "build highly specialized technical cadres and develop the creative" +
-      "capabilities of Egyptian youth, as well as support start-ups, small and" +
-      "medium-sized companies in the field of applied technology and build" +
-      "digital community awareness through various programs" +
-      "The initiative was launched in cooperation between:" +
-      "New Cairo Technological University, one of the first Egyptian that is" +
-      "specialized in the development of technological and technical" +
-      "education in Egypt in parallel with the academic path with the quality" +
-      "and adequacy required by the labor market and achieving excellence," +
-      "creativity and global leadership," +
-      "And, PTS Group, an Egyptian group of companies that aims to add" +
-      "direct value in the investment value chain through its expertise and deep" +
-      "industries knowledge along with local and global partners building" +
-      "robust ecosystem to help businesses mainly entrepreneurs, startups and" +
-      "SMEs to build resilience, spur innovation, expedite growth and expand" +
+      "The “Applied Technological Valley- Kemtech Valley” initiative aims to " +
+      "build highly specialized technical cadres and develop the creative "  +
+      "capabilities of Egyptian youth, as well as support start-ups and small and " +
+      "medium-sized companies in the field of applied technology and build " +
+      "digital community awareness through various programs. " +
+      "The initiative was launched by cooperation between: " +
+      "New Cairo Technological University, one of the first Egyptian that is " +
+      "specialized in the development of technological and technical " +
+      "education in Egypt in parallel with the academic path with the quality " +
+      "and adequacy required by the labor market and achieving excellence, " +
+      "creativity and global leadership. The initiative in 2 years is entending to 5 technical universities as well as an agreement with the supreme council of Technoligical universities." +
+      "PTS Group is an Egyptian group of companies that aims to add " +
+      "direct value in the investment value chain through its expertise and deep " +
+      "industries knowledge along with local and global partners building " +
+      "robust ecosystem to help businesses mainly entrepreneurs, startups and " +
+      "SMEs to build resilience, spur innovation, expedite growth and expand " +
       "into key markets.",
     socialResponsibility: [
-      'Enriching the culture of entrepreneurship, innovation and investment in the promising Egyptian minds ',
-      'Contribute in building societal awareness based on digital and information technology',
+      'Enriching the culture of entrepreneurship, innovation and investment among promising Egyptian innovators ',
+      'Contribute in building societal awareness based on digital and information technology. ',
       'Maximizing the utilization of scientific cadres and specialized experts',
-      'Upgrading the Egyptian technological industries by qualifying them to compete in global markets and developing innovative thought',
+      'Upgrading the Egyptian technological industries by qualifying them to compete in global markets and developing innovative thoughts',
       'Creating a forum to communicate with local and international investment channels, Global marketing of Egyptian products and applications under the slogan ”Technovate in Egypt"',
     ],
     images: [

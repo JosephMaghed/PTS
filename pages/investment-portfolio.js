@@ -17,7 +17,7 @@ export default function InvestmentPortfolio() {
   alignItems: "center",textAlign:"center"}}>
 					We monitor the performance of the portfolio on a regular
 					basis and adjust investments as needed in order to maintain
-					desired profile. We regularly review portfolio
+					desired profile. We regularly review our portfolio KPI
 					performance against predetermined benchmarks in order to
 					measure success and make adjustments as needed and utilize
 					financial planning tools to manage cash flow needs and

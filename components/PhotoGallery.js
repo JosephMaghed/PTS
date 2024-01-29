@@ -71,7 +71,7 @@ const PhotoGallery = () => {
             height: '300px',
             objectFit: 'fill',
             transform: `translateX(${(100 / (photos.length - 1)) * (currentPhotoIndex - index)}%)`,
-            transition: 'transform 0.5s ease-in-out, opacity 0.5s ease-in-out', // Set transition duration and easing
+            transition: 'transform 1s ease-in-out, opacity 1s ease-in-out', // Set transition duration and easing
             opacity: currentPhotoIndex === index ? 1 : 0,
           }}
         />
