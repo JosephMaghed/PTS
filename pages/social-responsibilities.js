@@ -6,7 +6,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 export default function SocialResponsibilityPage() {
   const companyData = {
     name: 'Corporate Social Responsibility',
-    logo: '/assets/logos/kemtech logo.png',
+    logo: '/assets/logos/logo kemtech.svg',
     description:
       'The “Applied Technological Valley- Kemtech Valley” initiative aims to ' +
       'build highly specialized technical cadres and develop the creative ' +
