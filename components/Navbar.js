@@ -1,19 +1,19 @@
-import { companiesData } from "data/CompaniesData";
-import Image from "next/image";
-import Link from "next/link";
-import { useEffect, useState } from "react";
+import { companiesData } from "data/CompaniesData"
+import Image from "next/image"
+import Link from "next/link"
+import { useEffect, useState } from "react"
 
 const Navbar = () => {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false)
 
     useEffect(() => {
         // Disable scroll when navbar is open
         if (open) {
-            document.body.style.overflow = "hidden";
+            document.body.style.overflow = "hidden"
         } else {
-            document.body.style.overflow = "auto";
+            document.body.style.overflow = "auto"
         }
-    }, [open]);
+    }, [open])
 
     let navLinks = [
         {
@@ -53,7 +53,7 @@ const Navbar = () => {
             name: "Contact us",
             href: "/contact",
         },
-    ];
+    ]
 
     return (
         <header>
@@ -77,20 +77,20 @@ const Navbar = () => {
                         {/* Upper navigation links that has no description */}
                         <ul className="mb-4 flex justify-end">
                             {navLinks.map((navLink) => {
-                                if (navLink.description) return "";
+                                if (navLink.description) return ""
                                 return (
                                     <a key={navLink.name} href={navLink.href}>
                                         <li className="caption-medium mr-6 cursor-pointer hover:font-bold hover:underline">
                                             {navLink.name}
                                         </li>
                                     </a>
-                                );
+                                )
                             })}
                         </ul>
                         {/* bottom Navigation links */}
                         <ul className="flex">
                             {navLinks.map((navLink, i) => {
-                                if (!navLink.description) return "";
+                                if (!navLink.description) return ""
                                 return (
                                     <li
                                         key={navLink.name}
@@ -132,7 +132,7 @@ const Navbar = () => {
                                             </ul>
                                         )}
                                     </li>
-                                );
+                                )
                             })}
                         </ul>
                     </div>
@@ -157,7 +157,7 @@ const Navbar = () => {
                     <div
                         className={`$ relative z-50 flex h-7 w-7 flex-col items-center justify-between`}
                         onClick={() => {
-                            setOpen(!open);
+                            setOpen(!open)
                         }}
                     >
                         <span
@@ -200,7 +200,7 @@ const Navbar = () => {
                 </ul>
             </div>
         </header>
-    );
-};
+    )
+}
 
-export default Navbar;
+export default Navbar

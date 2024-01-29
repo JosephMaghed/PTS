@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"
 export const ValueCard = ({ title, description, img }) => {
     return (
         <div className="flex max-w-[280px] flex-col items-center justify-center  space-y-4 py-6 px-4 text-center">
@@ -12,5 +12,5 @@ export const ValueCard = ({ title, description, img }) => {
                 {description}
             </div>
         </div>
-    );
-};
+    )
+}

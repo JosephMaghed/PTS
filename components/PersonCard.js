@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { ImLinkedin } from "react-icons/im";
+import Image from "next/image"
+import { ImLinkedin } from "react-icons/im"
 
 const PersonalCard = ({ img, name, title, company, linkedin }) => {
     return (
@@ -30,7 +30,7 @@ const PersonalCard = ({ img, name, title, company, linkedin }) => {
                 </div>
             )}
         </div>
-    );
-};
+    )
+}
 
-export default PersonalCard;
+export default PersonalCard

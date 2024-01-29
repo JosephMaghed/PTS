@@ -1,7 +1,7 @@
-import AboutUsSection from "components/aboutpage/AboutUsSection";
-import MissionVisionSection from "components/aboutpage/MissionVisionSection";
-import ValuesSection from "components/aboutpage/ValuesSection";
-import { NextSeo } from "next-seo";
+import AboutUsSection from "components/aboutpage/AboutUsSection"
+import MissionVisionSection from "components/aboutpage/MissionVisionSection"
+import ValuesSection from "components/aboutpage/ValuesSection"
+import { NextSeo } from "next-seo"
 
 export default function About() {
     return (
@@ -14,5 +14,5 @@ export default function About() {
             <ValuesSection />
             <MissionVisionSection />
         </div>
-    );
+    )
 }

@@ -195,4 +195,4 @@ export const companiesData = {
         img: "/assets/pics/pic2.png",
         category: "stakeholders",
     },
-};
+}

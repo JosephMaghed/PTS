@@ -1,4 +1,4 @@
-import { ValueCard } from "./ValueCard";
+import { ValueCard } from "./ValueCard"
 
 export const ValuesSection = () => {
     // validate email with regex pattern and comment each line
@@ -44,5 +44,5 @@ export const ValuesSection = () => {
                 />
             </div>
         </section>
-    );
-};
+    )
+}

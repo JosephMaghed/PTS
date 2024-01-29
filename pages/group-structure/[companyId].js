@@ -1,21 +1,21 @@
-import CompanyInfo from "components/companyPage/CompanyInfo";
-import { companiesData } from "data/CompaniesData";
-import { NextSeo } from "next-seo";
+import CompanyInfo from "components/companyPage/CompanyInfo"
+import { companiesData } from "data/CompaniesData"
+import { NextSeo } from "next-seo"
 
 export const getServerSideProps = async (context) => {
     {
-        const { query } = context;
-        return { props: { query } };
+        const { query } = context
+        return { props: { query } }
     }
-};
+}
 
 export default function CompanyPage({ query }) {
-    const companyData = companiesData[query.companyId];
+    const companyData = companiesData[query.companyId]
 
     const perks =
         companyData.companyObjectives ||
         companyData.values ||
-        companyData.services;
+        companyData.services
 
     return (
         <div className="container pt-8">
@@ -25,5 +25,5 @@ export default function CompanyPage({ query }) {
             />
             <CompanyInfo companyData={companyData} perks={perks} />
         </div>
-    );
+    )
 }

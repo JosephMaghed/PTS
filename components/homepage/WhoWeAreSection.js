@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"
 
 const WhoWeAreSection = () => {
     return (
@@ -24,7 +24,7 @@ const WhoWeAreSection = () => {
                 </p>
             </div>
         </section>
-    );
-};
+    )
+}
 
-export default WhoWeAreSection;
+export default WhoWeAreSection

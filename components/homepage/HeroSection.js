@@ -1,8 +1,8 @@
-import Image from "next/image";
-import ceoImg from "public/assets/abd-elaziz-mandour.png";
-import signatureImg from "public/assets/signature.svg";
-import waveImg from "public/assets/wave.svg";
-import { HiOutlineChevronDoubleDown } from "react-icons/hi";
+import Image from "next/image"
+import ceoImg from "public/assets/abd-elaziz-mandour.png"
+import signatureImg from "public/assets/signature.svg"
+import waveImg from "public/assets/wave.svg"
+import { HiOutlineChevronDoubleDown } from "react-icons/hi"
 const HeroSection = () => {
     return (
         <section className="flex flex-col-reverse items-center justify-center pt-8 lg:flex-row lg:justify-between">
@@ -42,7 +42,7 @@ const HeroSection = () => {
                 />
             </div>
         </section>
-    );
-};
+    )
+}
 
-export default HeroSection;
+export default HeroSection

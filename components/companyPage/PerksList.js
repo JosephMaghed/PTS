@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"
 
 export const PerksList = ({ list }) => {
     return (
@@ -22,5 +22,5 @@ export const PerksList = ({ list }) => {
                 </div>
             ))}
         </div>
-    );
-};
+    )
+}

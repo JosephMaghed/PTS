@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"
 const HorizontalCardWithImage = ({ title, img, description, imgAlt }) => {
     return (
         <div className="flex flex-col rounded-xl px-[37px] py-[40px] text-center shadow-lg lg:text-left lg:shadow-2xl">
@@ -14,6 +14,6 @@ const HorizontalCardWithImage = ({ title, img, description, imgAlt }) => {
                 </div>
             </div>
         </div>
-    );
-};
-export default HorizontalCardWithImage;
+    )
+}
+export default HorizontalCardWithImage

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"
 
 const CompanyCard = ({ companyName, logo, description, href }) => {
     return (
@@ -30,6 +30,6 @@ const CompanyCard = ({ companyName, logo, description, href }) => {
                 </div>
             </div>
         </div>
-    );
-};
-export default CompanyCard;
+    )
+}
+export default CompanyCard

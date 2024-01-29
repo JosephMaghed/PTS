@@ -1,5 +1,5 @@
 // components/PhotoGallery.js
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "react"
 
 const photos = [
     "/assets/logos/pts-technology.svg",
@@ -14,32 +14,32 @@ const photos = [
     "/assets/logos/logo instadeel.svg",
 
     // Add more image URLs as needed
-];
+]
 
 const PhotoGallery = () => {
-    const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
+    const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0)
 
     const handlePrev = () => {
         setCurrentPhotoIndex((prevIndex) =>
             prevIndex === 0 ? photos.length - 1 : prevIndex - 1
-        );
-    };
+        )
+    }
 
     const handleNext = () => {
         setCurrentPhotoIndex((prevIndex) =>
             prevIndex === photos.length - 1 ? 0 : prevIndex + 1
-        );
-    };
+        )
+    }
 
     useEffect(() => {
         // Automatically shift photos every 4 seconds
         const intervalId = setInterval(() => {
-            handleNext();
-        }, 4000);
+            handleNext()
+        }, 4000)
 
         // Clear the interval when the component unmounts
-        return () => clearInterval(intervalId);
-    }, [currentPhotoIndex]);
+        return () => clearInterval(intervalId)
+    }, [currentPhotoIndex])
 
     return (
         <div className="photo-gallery">
@@ -128,7 +128,7 @@ const PhotoGallery = () => {
                 }
             `}</style>
         </div>
-    );
-};
+    )
+}
 
-export default PhotoGallery;
+export default PhotoGallery

@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { PerksList } from "./PerksList";
+import Image from "next/image"
+import { PerksList } from "./PerksList"
 
 const CompanyInfo = ({ companyData, perks }) => {
     return (
@@ -51,6 +51,6 @@ const CompanyInfo = ({ companyData, perks }) => {
                 </div>
             </div>
         </div>
-    );
-};
-export default CompanyInfo;
+    )
+}
+export default CompanyInfo

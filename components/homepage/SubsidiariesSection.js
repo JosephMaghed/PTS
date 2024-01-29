@@ -1,5 +1,5 @@
-import CompanyCard from "components/CompanyCard";
-import { companiesData } from "data/CompaniesData";
+import CompanyCard from "components/CompanyCard"
+import { companiesData } from "data/CompaniesData"
 //import styles from '/styles/globales.css';
 
 const SubsidiariesSection = () => {
@@ -10,7 +10,7 @@ const SubsidiariesSection = () => {
             </h2>
             <div className=" mx-auto flex flex-wrap  items-stretch justify-center gap-x-6 gap-y-[75px]  ">
                 {Object.keys(companiesData).map((companyId) => {
-                    let companyData = companiesData[companyId];
+                    let companyData = companiesData[companyId]
                     if (companyData.category === "structure") {
                         return (
                             <CompanyCard
@@ -20,7 +20,7 @@ const SubsidiariesSection = () => {
                                 description={companyData.description}
                                 href={`/group-structure/${companyId}`}
                             />
-                        );
+                        )
                     }
                 })}
             </div>
@@ -30,7 +30,7 @@ const SubsidiariesSection = () => {
                 style={{ marginTop: "100px" }}
             >
                 {Object.keys(companiesData).map((companyId) => {
-                    let companyData = companiesData[companyId];
+                    let companyData = companiesData[companyId]
                     if (companyData.category === "stakeholders") {
                         return (
                             <CompanyCard
@@ -40,7 +40,7 @@ const SubsidiariesSection = () => {
                                 description={companyData.description}
                                 href={`/group-structure/${companyId}`}
                             />
-                        );
+                        )
                     }
                 })}
             </div>
@@ -52,7 +52,7 @@ const SubsidiariesSection = () => {
             </h2>
             <div className=" mx-auto flex flex-wrap  items-stretch justify-center gap-x-6 gap-y-[75px]  ">
                 {Object.keys(companiesData).map((companyId) => {
-                    let companyData = companiesData[companyId];
+                    let companyData = companiesData[companyId]
                     if (companyData.category === "partners") {
                         return (
                             <CompanyCard
@@ -62,11 +62,11 @@ const SubsidiariesSection = () => {
                                 description={companyData.description}
                                 href={`/group-structure/${companyId}`}
                             />
-                        );
+                        )
                     }
                 })}
             </div>
         </section>
-    );
-};
-export default SubsidiariesSection;
+    )
+}
+export default SubsidiariesSection

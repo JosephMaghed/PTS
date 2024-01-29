@@ -1,5 +1,5 @@
-import { NextSeo } from "next-seo";
-import Image from "next/image";
+import { NextSeo } from "next-seo"
+import Image from "next/image"
 
 export default function InvestmentPortfolio() {
     return (
@@ -39,5 +39,5 @@ export default function InvestmentPortfolio() {
                 />
             </div>
         </section>
-    );
+    )
 }

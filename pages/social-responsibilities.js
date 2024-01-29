@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
-import CompanyInfo from "components/companyPage/CompanyInfo";
-import { NextSeo } from "next-seo";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useState, useEffect } from "react"
+import CompanyInfo from "components/companyPage/CompanyInfo"
+import { NextSeo } from "next-seo"
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa"
 
 export default function SocialResponsibilityPage() {
     const companyData = {
@@ -39,36 +39,36 @@ export default function SocialResponsibilityPage() {
             "/assets/pics/pic3.png",
             "/assets/pics/pic4.png",
         ],
-    };
+    }
 
-    const [currentImgIndex, setCurrentImgIndex] = useState(0);
+    const [currentImgIndex, setCurrentImgIndex] = useState(0)
 
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentImgIndex(
                 (prevIndex) => (prevIndex + 1) % companyData.images.length
-            );
-        }, 4000);
+            )
+        }, 4000)
 
-        return () => clearInterval(intervalId); // Cleanup interval on component unmount
-    }, [currentImgIndex]);
+        return () => clearInterval(intervalId) // Cleanup interval on component unmount
+    }, [currentImgIndex])
 
     const handlePrevClick = () => {
         setCurrentImgIndex(
             (prevIndex) =>
                 (prevIndex - 1 + companyData.images.length) %
                 companyData.images.length
-        );
-    };
+        )
+    }
 
     const handleNextClick = () => {
         setCurrentImgIndex(
             (prevIndex) => (prevIndex + 1) % companyData.images.length
-        );
-    };
+        )
+    }
 
-    const currentImg = companyData.images[currentImgIndex];
-    const perks = companyData.socialResponsibility;
+    const currentImg = companyData.images[currentImgIndex]
+    const perks = companyData.socialResponsibility
 
     return (
         <div className="container py-8">
@@ -96,5 +96,5 @@ export default function SocialResponsibilityPage() {
         </button> */}
             </div>
         </div>
-    );
+    )
 }

@@ -1,4 +1,4 @@
-const { default: Image } = require("next/image");
+const { default: Image } = require("next/image")
 
 const StrategySection = () => {
     return (
@@ -24,7 +24,7 @@ const StrategySection = () => {
                 />
             </div>
         </section>
-    );
-};
+    )
+}
 
-export default StrategySection;
+export default StrategySection

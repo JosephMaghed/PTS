@@ -1,23 +1,23 @@
-import PersonalCard from "components/PersonCard";
-import { peopleData } from "data/peopleData";
-import { NextSeo } from "next-seo";
-import Image from "next/image";
-import { useState, useEffect } from "react";
+import PersonalCard from "components/PersonCard"
+import { peopleData } from "data/peopleData"
+import { NextSeo } from "next-seo"
+import Image from "next/image"
+import { useState, useEffect } from "react"
 
 // NumberCounter component
 const NumberCounter = ({ value, label, max, labelNo }) => {
-    const [count, setCount] = useState(0);
-    const tick = 250.0 / max; // Adjust as needed
+    const [count, setCount] = useState(0)
+    const tick = 250.0 / max // Adjust as needed
 
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCount((prevCount) =>
                 prevCount < max ? prevCount + 1 : prevCount
-            );
-        }, tick); // Adjust the interval duration dynamically based on max
+            )
+        }, tick) // Adjust the interval duration dynamically based on max
 
-        return () => clearInterval(intervalId);
-    }, [max, tick]);
+        return () => clearInterval(intervalId)
+    }, [max, tick])
     return (
         <div className="w-1/2">
             <p className="text-4xl font-extrabold text-red-basic">
@@ -28,8 +28,8 @@ const NumberCounter = ({ value, label, max, labelNo }) => {
                 {label}
             </p>
         </div>
-    );
-};
+    )
+}
 
 export default function Team() {
     return (
@@ -105,5 +105,5 @@ export default function Team() {
         ))}
       </div> */}
         </div>
-    );
+    )
 }

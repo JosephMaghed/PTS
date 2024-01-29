@@ -1,4 +1,4 @@
-import HorizontalCardWithImage from "components/cards/HorizontalCardWithImage";
+import HorizontalCardWithImage from "components/cards/HorizontalCardWithImage"
 
 const MissionVisionSection = () => {
     return (
@@ -18,7 +18,7 @@ const MissionVisionSection = () => {
                 />
             </div>
         </section>
-    );
-};
+    )
+}
 
-export default MissionVisionSection;
+export default MissionVisionSection

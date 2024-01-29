@@ -1,5 +1,5 @@
-import SubsidiariesSection from "components/homepage/SubsidiariesSection";
-import { NextSeo } from "next-seo";
+import SubsidiariesSection from "components/homepage/SubsidiariesSection"
+import { NextSeo } from "next-seo"
 
 const SubsidiariesPage = () => {
     return (
@@ -10,7 +10,7 @@ const SubsidiariesPage = () => {
             />
             <SubsidiariesSection />
         </div>
-    );
-};
+    )
+}
 
-export default SubsidiariesPage;
+export default SubsidiariesPage

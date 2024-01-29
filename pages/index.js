@@ -1,14 +1,14 @@
-import CompanyCard from "components/CompanyCard";
-import StrategySection from "components/homepage/StrategySection";
-import SubsidiariesSection from "components/homepage/SubsidiariesSection";
-import WhoWeAreSection from "components/homepage/WhoWeAreSection";
-import { NextSeo } from "next-seo";
-import Head from "next/head";
-import HeroSection from "../components/homepage/HeroSection";
-import styles from "../styles/Home.module.css";
+import CompanyCard from "components/CompanyCard"
+import StrategySection from "components/homepage/StrategySection"
+import SubsidiariesSection from "components/homepage/SubsidiariesSection"
+import WhoWeAreSection from "components/homepage/WhoWeAreSection"
+import { NextSeo } from "next-seo"
+import Head from "next/head"
+import HeroSection from "../components/homepage/HeroSection"
+import styles from "../styles/Home.module.css"
 //import style from '../styles/globales.css';
 
-import PhotoGallery from "../components/PhotoGallery";
+import PhotoGallery from "../components/PhotoGallery"
 
 export default function Home() {
     return (
@@ -41,5 +41,5 @@ export default function Home() {
                 <SubsidiariesSection />
             </main>
         </div>
-    );
+    )
 }

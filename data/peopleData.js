@@ -69,4 +69,4 @@ export const peopleData = [
         company: "Kemtix Technologies",
         linkedin: "https://www.linkedin.com/in/omar--sakr/",
     },
-];
+]

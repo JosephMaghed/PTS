@@ -6,6 +6,6 @@ const nextConfig = {
         domains: [],
         formats: ["image/webp"],
     },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
