@@ -2,7 +2,7 @@ import PersonalCard from "components/PersonCard";
 import { peopleData } from "data/peopleData";
 import { NextSeo } from "next-seo";
 import Image from "next/image";
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 
 // NumberCounter component

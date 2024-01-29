@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import CompanyInfo from 'components/companyPage/CompanyInfo';
 import { NextSeo } from 'next-seo';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
