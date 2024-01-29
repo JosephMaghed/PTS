@@ -1,12 +1,11 @@
-
-  .fade-in-out {
+.fade-in-out {
     transition: left 0.5s ease-in-out;
-  }
-  
-  .fade-in-out.enter {
+}
+
+.fade-in-out.enter {
     left: 0;
-  }
-  
-  .fade-in-out.exit {
+}
+
+.fade-in-out.exit {
     left: -100%;
-  }
+}

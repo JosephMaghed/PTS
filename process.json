@@ -1,10 +1,12 @@
 {
-    "apps": [{
-        "name" : "pts.holdings",
-        "script" : "yarn && yarn build && yarn start",
-        "watch" : false,
-        "env":{
-            "PORT" : 3002
+    "apps": [
+        {
+            "name": "pts.holdings",
+            "script": "yarn && yarn build && yarn start",
+            "watch": false,
+            "env": {
+                "PORT": 3002
+            }
         }
-    }]
+    ]
 }
