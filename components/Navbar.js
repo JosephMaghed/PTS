@@ -1,4 +1,4 @@
-import { companiesData } from 'data/CompaniesData'
+import { companiesData } from 'data/companiesData'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
