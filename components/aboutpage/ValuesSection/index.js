@@ -1,2 +1,2 @@
-import { ValuesSection } from "./ValuesSection"
+import { ValuesSection } from './ValuesSection'
 export default ValuesSection
