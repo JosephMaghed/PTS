@@ -1,5 +1,5 @@
 import CompanyInfo from 'components/companyPage/CompanyInfo'
-import { companiesData } from 'data/CompaniesData'
+import { companiesData } from 'data/companiesData'
 import { NextSeo } from 'next-seo'
 
 export const getServerSideProps = async (context) => {
