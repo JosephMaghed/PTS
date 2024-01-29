@@ -12,9 +12,7 @@ export default function InvestmentPortfolio() {
 				<h2 className="body-large-bold lg:header2 text-navy-basic">
 					Investment Portfolio{" "}
 				</h2>
-				<p style={{fontSize:"30px", display: "flex",
-  justifyContent: "center",
-  alignItems: "center",textAlign:"center"}}>
+			<p style={{fontSize:"30px", display: "flex",justifyContent: "center",alignItems: "center",textAlign:"center"}}>
 					We monitor the performance of the portfolio on a regular
 					basis and adjust investments as needed in order to maintain
 					desired profile. We regularly review our portfolio KPI
