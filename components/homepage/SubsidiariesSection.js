@@ -1,5 +1,5 @@
 import CompanyCard from 'components/CompanyCard'
-import { companiesData } from 'data/CompaniesData'
+import { companiesData } from 'data/companiesData'
 //import styles from '/styles/globales.css';
 
 const SubsidiariesSection = () => {
