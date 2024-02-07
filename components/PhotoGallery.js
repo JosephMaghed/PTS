@@ -5,7 +5,7 @@ const photos = [
   '/assets/logos/logo coreangels.svg',
   '/assets/logos/logo kemtix.svg',
   '/assets/logos/logo kemtech.svg',
-
+  '/assets/logos/oro-vl.svg',
   '/assets/logos/edam.svg',
   '/assets/logos/trade-plus.svg',
 
