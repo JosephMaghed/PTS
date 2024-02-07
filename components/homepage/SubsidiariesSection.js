@@ -25,10 +25,10 @@ const SubsidiariesSection = () => {
         })}
       </div>
       <h2
-        className="lg:header1 body-large-bold mb-20 w-full text-center text-navy-basic"
-        style={{ marginTop: '50px' }}
+        className="title-large lg:header1 mx-auto w-[80%] font-pt font-bold text-navy-basic lg:w-full"
+        style={{ textAlign: 'center' }}
       >
-        Portofolio ventures
+        Portofolio ventures{' '}
       </h2>
       <div
         className=" mx-auto flex flex-wrap  items-stretch justify-center gap-x-6 gap-y-[75px]  "
@@ -50,11 +50,16 @@ const SubsidiariesSection = () => {
         })}
       </div>
       <h2
-        className="lg:header1 body-large-bold mb-20 w-full text-center text-navy-basic"
-        style={{ marginTop: '50px' }}
+        className="title-large lg:header1 mx-auto w-[80%] font-pt font-bold text-navy-basic lg:w-full"
+        style={{ textAlign: 'center' }}
       >
         Our Partners{' '}
       </h2>
+      <br />
+      <br />
+      <br />
+      <br />
+
       <div className=" mx-auto flex flex-wrap  items-stretch justify-center gap-x-6 gap-y-[75px]  ">
         {Object.keys(companiesData).map((companyId) => {
           let companyData = companiesData[companyId]
