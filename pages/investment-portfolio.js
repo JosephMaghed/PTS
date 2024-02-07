@@ -31,7 +31,7 @@ export default function InvestmentPortfolio() {
       </div>
       <div className="relative h-[280px] w-[346px] md:h-[500px] md:w-[508px]">
         <Image
-          src="/assets/pics/portfolio.svg"
+          src="/assets/pics/Kemtix.png"
           layout="fill"
           alt="PTS Portfolio"
           fill

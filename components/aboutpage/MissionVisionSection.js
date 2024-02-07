@@ -6,14 +6,15 @@ const MissionVisionSection = () => {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         <HorizontalCardWithImage
           title={'Our Vision'}
-          description="To be recognized as a direct value added team within the investment value chain for the customers we serve.We strive to provide our clients with the best possible service"
-          img="/assets/pics/retinal-biometrics-technology-with-man-s-eye-digital-remix.jpg"
+          description="Our vision to to be a gamechanger to the global entrepreneurial ecosystems through developing and investing in the people and technology .
+          "
+          img="/assets/pics/vision.jpg"
           imgAlt="retinal biometrics technology with man eye digital remix"
         />
         <HorizontalCardWithImage
           title={'Our Mission'}
-          description="To maintain our recognizable identity and promote our cross-boarders ecosystem platforms. Our clients, both from entrepreneurs, governments and angel investors"
-          img="/assets/pics/group-diverse-people-with-joining-hands-teamwork.jpg"
+          description="To maintain our recognizable identity and promote our cross-boarders ecosystem platforms. Our clients, both from entrepreneurs, governments and investors, will seek us in order to achieve and transcend their aspirations.          "
+          img="/assets/pics/mission.jpg"
           imgAlt="group diverse people with joining hands teamwork"
         />
       </div>
