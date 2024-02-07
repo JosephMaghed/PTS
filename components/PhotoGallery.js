@@ -2,16 +2,14 @@
 import { useState, useEffect } from 'react'
 
 const photos = [
-  '/assets/logos/pts-technology.svg',
-  '/assets/logos/pts-capital.svg',
-  '/assets/logos/pts-finance.svg',
-  '/assets/logos/pts-projects.svg',
-  '/assets/logos/COREangels_MEA_Original.svg',
+ 
+ 
+  '/assets/logos/logo coreangels.svg',
   '/assets/logos/logo kemtix.svg',
   '/assets/logos/logo kemtech.svg',
-  '/assets/logos/logo Legalify.svg',
+
   '/assets/logos/edam.svg',
-  '/assets/logos/logo instadeel.svg',
+  '/assets/logos/trade-plus.svg',
 
   // Add more image URLs as needed
 ]
