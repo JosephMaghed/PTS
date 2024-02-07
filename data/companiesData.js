@@ -67,7 +67,7 @@ export const companiesData = {
   },
   'oro-ventures-lab': {
     name: 'ORO Venture Lab ',
-    logo: '/assets/logos/oroVenturesLab.png',
+    logo: '/assets/logos/oro-vl.svg',
     description: `ORO Ventures is the designed investment guide that establishes financial prosperity, creates sustainable economic gains, the hassle-free, smart experienced that allows  both entities and individuals to optimise cash flow at both ends, get closer to their goals and unlock trapped working capital.
 
     ORO Capital is the Cross Border Solution to offer SMEs the most flexible financing options allowing their business to hold on to cash for longer while also ensuring your personalized portfolio investment is managed seamlessly, technically, and professionally creating more sustainability and profitability mitigating the risks.
