@@ -5,9 +5,9 @@ import { companiesData } from 'data/companiesData'
 const SubsidiariesSection = () => {
   return (
     <section className=" pb-20">
-      <h2 className="md:header3 body-medium-bold mb-20 w-full text-center text-navy-basic">
+      {/* <h2 className="md:header3 body-medium-bold mb-20 w-full text-center text-navy-basic">
         Group structure
-      </h2>
+      </h2> */}
       <div className=" mx-auto flex flex-wrap  items-stretch justify-center gap-x-6 gap-y-[75px]  ">
         {Object.keys(companiesData).map((companyId) => {
           let companyData = companiesData[companyId]
@@ -24,7 +24,12 @@ const SubsidiariesSection = () => {
           }
         })}
       </div>
-
+      <h2
+        className="md:header3 body-medium-bold mb-20 w-full text-center text-navy-basic"
+        style={{ marginTop: '50px' }}
+      >
+        Portofolio ventures
+        </h2>
       <div
         className=" mx-auto flex flex-wrap  items-stretch justify-center gap-x-6 gap-y-[75px]  "
         style={{ marginTop: '100px' }}
@@ -48,8 +53,7 @@ const SubsidiariesSection = () => {
         className="md:header3 body-medium-bold mb-20 w-full text-center text-navy-basic"
         style={{ marginTop: '50px' }}
       >
-        Our partners
-      </h2>
+Our Partners      </h2>
       <div className=" mx-auto flex flex-wrap  items-stretch justify-center gap-x-6 gap-y-[75px]  ">
         {Object.keys(companiesData).map((companyId) => {
           let companyData = companiesData[companyId]
