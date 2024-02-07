@@ -48,7 +48,7 @@ export default function SocialResponsibilityPage() {
       setCurrentImgIndex(
         (prevIndex) => (prevIndex + 1) % companyData.images.length
       )
-    }, 4000)
+    }, 2000)
 
     return () => clearInterval(intervalId) // Cleanup interval on component unmount
   }, [currentImgIndex])

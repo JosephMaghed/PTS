@@ -32,30 +32,14 @@ export const companiesData = {
     name: 'Kemtech',
     logo: '/assets/logos/logo kemtech.svg',
     description:
-      'The “Egyptian Applied Technological ' +
-      'Valley- Kemtech Valley” initiative aims ' +
-      'to build highly specialized technical ' +
-      'cadres and develop the creative ' +
-      'capabilities of Egyptian youth, as well ' +
-      'as support start- ups, small and ' +
-      'medium-sized companies in the field ' +
-      'of applied technology and build digital ' +
-      'community awareness through ' +
-      'various programs.',
-    services: [
-      `Training & Career Development:
-			The program's goal is to empower Egyptian youth to pursue their career choices and facilitate their transition from the academic education to the work force, bridge the gap between the academic outcomes and industry needs
-			
-			`,
-      `Startup# Studio:
-			Our Startup# Studio program is based on a venture studio model for entrepreneurship, whereas the valley adopts a one-stop shop approach for startups combining company building with venture funding either by generating new ideas for startups or by recruiting founders with ideas
-			
-			`,
-
-      `Technovate Lab	:
-			The program focuses on offering students, entrepreneurs and startups world-class secure facilities, with access to tools, technology, labs, equipment, and support, along with the opportunity to learn, design and networking with corporates and supported ecosystems. Whereas their presence on the valley will allow them to work in the same space and collaborate to create innovative solutions in cutting edge projects utilizing the program facilities.
-
-			`,
+      '“Kemtech Valley Initiative”, This initiative was launched through collaboration between PTS Projects and The Supreme Council of Technological Colleges (TUE)- under The Ministry of Higher Education and Scientific Research of the Arab Republic of Egypt. The primary focus of this initiative is to empower exceptional student cadres, visionary entrepreneurs, research projects, and emerging companies within the realm of applied technology. Aligned with the skills and occupations projected for the future, the initiative strategically addresses the globe’s demand for enhanced technological expertise.      ',
+    companyObjectives: [
+      `Capacity Building of Highly Qualified Technological Experts `,
+      `Establishing a Sustainable Career Path for Technologist Graduates `,
+      `Cultivating a Culture of Entrepreneurship, Innovation, and Investment `,
+      `Advancing Digital Literacy and Industrial Technology Awareness `,
+      `Promoting Industrialization and Technology-Intensive Manufacturing `,
+      `Facilitating Global Integration of Egyptian Innovations `,
     ],
     img: '/assets/pics/pic2.png',
     category: 'stakeholders',
@@ -64,7 +48,7 @@ export const companiesData = {
     name: 'EDAM Healthcare Services S.A.E',
     logo: '/assets/logos/edam.svg',
     description:
-      'EDAM has become the first choice for those wishing to obtain health care programs by cooperating with a group of leading medical service providers and improving the quality of care programs for our customers. EDAM seeks to raise the quality of medical services provided to our clients.',
+      'EDAM has become the first choice for those wishing to obtain health care programs by cooperating with a group of leading medical service providers and improving the quality of care programs for our customers and subscribers in the best way.  \n\nEDAM seeks to raise the quality of medical services provided to our clients by providing distinguished cadres in medical care at the best prices in order to achieve the best health and financial return for all with a  goal to become the first and best partner for medical service providers and those wishing to benefit from Edam.',
     services: [
       `A wide medical network covering all medical specialties:
 				• Hospitals
@@ -84,7 +68,10 @@ export const companiesData = {
   'oro-ventures-lab': {
     name: 'ORO Venture Lab ',
     logo: '/assets/logos/oroVenturesLab.png',
-    description: `It’s a diverse expertise group that share global ambition to help innovative start-ups' ideas through fast track of support whether in investment or in kind-services.`,
+    description: `ORO Ventures is the designed investment guide that establishes financial prosperity, creates sustainable economic gains, the hassle-free, smart experienced that allows  both entities and individuals to optimise cash flow at both ends, get closer to their goals and unlock trapped working capital.
+
+    ORO Capital is the Cross Border Solution to offer SMEs the most flexible financing options allowing their business to hold on to cash for longer while also ensuring your personalized portfolio investment is managed seamlessly, technically, and professionally creating more sustainability and profitability mitigating the risks.
+    `,
     services: [],
     img: '',
     category: 'partners',

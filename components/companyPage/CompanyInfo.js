@@ -27,6 +27,10 @@ const CompanyInfo = ({ companyData, perks }) => {
         <div className="w-full lg:w-1/2">
           <div className="body-medium-bold lg:header3  text-center text-navy-basic lg:text-left">
             {companyData.values && <h2>Core Values:</h2>}
+            {companyData.InitiativeObjectives && (
+              <h2>Initiative Objectives:</h2>
+            )}
+
             {companyData.companyObjectives && <h2>Company Objectives:</h2>}
             {companyData.services && companyData.services.length > 0 && (
               <h2>Services:</h2>

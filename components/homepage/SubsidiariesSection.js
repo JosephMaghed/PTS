@@ -25,7 +25,7 @@ const SubsidiariesSection = () => {
         })}
       </div>
       <h2
-        className="md:header3 body-medium-bold mb-20 w-full text-center text-navy-basic"
+        className="lg:header1 body-large-bold mb-20 w-full text-center text-navy-basic"
         style={{ marginTop: '50px' }}
       >
         Portofolio ventures
@@ -50,7 +50,7 @@ const SubsidiariesSection = () => {
         })}
       </div>
       <h2
-        className="md:header3 body-medium-bold mb-20 w-full text-center text-navy-basic"
+        className="lg:header1 body-large-bold mb-20 w-full text-center text-navy-basic"
         style={{ marginTop: '50px' }}
       >
         Our Partners{' '}
