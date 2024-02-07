@@ -1,6 +1,4 @@
 export const companiesData = {
- 
-
   'core-angels-mea': {
     name: 'COREangels MEA',
     logo: '/assets/logos/logo coreangels.svg',
@@ -86,13 +84,9 @@ export const companiesData = {
   'oro-ventures-lab': {
     name: 'ORO Venture Lab ',
     logo: '/assets/logos/oroVenturesLab.png',
-    description:
-      `It’s a diverse expertise group that share global ambition to help innovative start-ups' ideas through fast track of support whether in investment or in kind-services.`,
-    services: [
-      
-    ],
+    description: `It’s a diverse expertise group that share global ambition to help innovative start-ups' ideas through fast track of support whether in investment or in kind-services.`,
+    services: [],
     img: '',
     category: 'partners',
   },
-  
 }

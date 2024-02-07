@@ -29,7 +29,7 @@ const SubsidiariesSection = () => {
         style={{ marginTop: '50px' }}
       >
         Portofolio ventures
-        </h2>
+      </h2>
       <div
         className=" mx-auto flex flex-wrap  items-stretch justify-center gap-x-6 gap-y-[75px]  "
         style={{ marginTop: '100px' }}
@@ -53,7 +53,8 @@ const SubsidiariesSection = () => {
         className="md:header3 body-medium-bold mb-20 w-full text-center text-navy-basic"
         style={{ marginTop: '50px' }}
       >
-Our Partners      </h2>
+        Our Partners{' '}
+      </h2>
       <div className=" mx-auto flex flex-wrap  items-stretch justify-center gap-x-6 gap-y-[75px]  ">
         {Object.keys(companiesData).map((companyId) => {
           let companyData = companiesData[companyId]

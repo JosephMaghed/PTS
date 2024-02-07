@@ -28,7 +28,10 @@ const CompanyInfo = ({ companyData, perks }) => {
           <div className="body-medium-bold lg:header3  text-center text-navy-basic lg:text-left">
             {companyData.values && <h2>Core Values:</h2>}
             {companyData.companyObjectives && <h2>Company Objectives:</h2>}
-            {companyData.services && companyData.services.length > 0 && ( <h2>Services:</h2>)}
+            {companyData.services && companyData.services.length > 0 && (
+              <h2>Services:</h2>
+            )}
+
             {companyData.socialResponsibility && (
               <h2>Social Responsibility Objectives:</h2>
             )}
@@ -39,14 +42,15 @@ const CompanyInfo = ({ companyData, perks }) => {
         </div>
 
         <div className="relative mx-auto h-[260px] w-[340px] overflow-hidden rounded-xl lg:h-[500px] lg:w-[570px]">
-        {companyData.img !== '' && (
-          <Image
-            src={companyData.img}
-            alt={''}
-            layout="fill"
-            objectFit="cover"
-            fill
-          />)}
+          {companyData.img !== '' && (
+            <Image
+              src={companyData.img}
+              alt={''}
+              layout="fill"
+              objectFit="cover"
+              fill
+            />
+          )}
         </div>
       </div>
     </div>
