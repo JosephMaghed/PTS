@@ -94,13 +94,15 @@ export const companiesData = {
     logo: '/assets/logos/trade-plus.svg',
     description: `Plus Trade , an international trading platform supporting the exchange of goods between traders and manufacturers in different countries creating integrated trading hub with a range of essential, easy and simple procedures to complete joint business operations, The commercial hub support goods starting from raw materials, intermediate products and up to the finished products allowing to deal with simple quantities and orders while providing multi-currencies payment facilities.
     `,
-    services: [ `Currently the network serves on MEA region, with registered offices in the following countries:
+    services: [
+      `Currently the network serves on MEA region, with registered offices in the following countries:
     
     • Turkey
     • Saudi Arabia
     • Morocco
     • Egypt
-    `],
+    `,
+    ],
     img: '',
     category: 'partners',
   },

@@ -2,8 +2,6 @@
 import { useState, useEffect } from 'react'
 
 const photos = [
- 
- 
   '/assets/logos/logo coreangels.svg',
   '/assets/logos/logo kemtix.svg',
   '/assets/logos/logo kemtech.svg',
